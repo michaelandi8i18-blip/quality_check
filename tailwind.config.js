@@ -10,7 +10,6 @@ const config = {
 };
 
 module.exports = config;
-= {
     darkMode: "class",
     content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
