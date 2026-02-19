@@ -7,7 +7,7 @@ generator client {
 }
 
 datasource db {
-  provider = "postgresql"
+  provider = "prisma-client-js"
 }
 
 // Model untuk pengguna (User dan Admin)

@@ -1,7 +1,16 @@
-import type { Config } from "tailwindcss";
-import tailwindcssAnimate from "tailwindcss-animate";
+const tailwindcssAnimate = require("tailwindcss-animate");
 
-const config: Config = {
+/** @type {import('tailwindcss').Config} */
+const config = {
+  content: ["./src/**/*.{js,ts,jsx,tsx}"],
+  theme: {
+    extend: {},
+  },
+  plugins: [tailwindcssAnimate],
+};
+
+module.exports = config;
+= {
     darkMode: "class",
     content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
